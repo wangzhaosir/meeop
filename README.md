@@ -40,18 +40,17 @@
 
 ### 2.1、POM引用
 
-
+SNAPSHOT版本
 
 ```java
-SNAPSHOT版本
 <dependency>
 	<groupId>com.jd</groupId>
 	<artifactId>meeop</artifactId>
 	<version>1.0.0-SNAPSHOT</version>
 </dependency>
-
+```
 RELEASE版本
-
+```java
 <dependency>
 	<groupId>com.jd</groupId>
 	<artifactId>meeop</artifactId>
