@@ -79,24 +79,9 @@ alchemist.alias版本说明
 ```
 
 
-## 4、研发规范
+## 4、About
 
-两个核心交易方法，invoke用来做转发请求，trade用来做交易请求；
+
 ```java
-public interface AlchemistService<RES extends ResponseData> {
-    /**
-     * 转发请求
-     * @param transCode
-     * @param $
-     * @return
-     */
-    RES invoke(String transCode, String $);
-
-    /**
-     * 交易请求
-     * @param $ 请求参数
-     * @return
-     */
-    RES trade(String transCode, String $);
-}
+    这里把开发中常用的一些工具类做一个整理，主要用到的时候不用再费力的Baidu或者Google了，大家有需要的可以随时借鉴走，同时也希望这个越来越强大，有什么错误的地方还希望各位不吝指出，让我得以完善，当然，在此声明，这些并不是我一个人，也用了许多前辈们的东西，这里一并感谢，目前持续更新中，希望大家也可以提出更好的意见，如对你有用就给一个Start吧！
 ```
