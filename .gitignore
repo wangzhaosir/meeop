@@ -1,0 +1,20 @@
+#Java template
+*.class
+target/
+
+#Package Files
+*.jar
+*.war
+*.ear
+
+#IntelliJ project files
+.idea
+*.iml
+
+#Eclipse project files
+.classpath
+.project
+.settings
+
+#Store files
+.DS_Store
