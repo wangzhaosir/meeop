@@ -57,28 +57,7 @@ RELEASE版本
 	<version>1.0.0</version>
 </dependency>
 ```
-### 2.2、JSF引用
-```java
-<!-- 金采交易服务 -->
-<jsf:consumer id="alchemistService" interface="com.jd.jr.alchemist.export.AlchemistService" protocol="jsf"
-              alias="${alchemist.alias}" timeout="60000" retries="0" check="false" />
 
-```
-alchemist.alias版本说明
-
->
-- 测试环境 alchemist_1.0.0_test
-- 预发环境 alchemist_1.0.0_pre
-- 线上环境 alchemist_1.0.0
->
-
-## 3、DEMO
-
-```java
-    alchemistService.trade("T001001001","{"aa"}");
-```
-
-
-## 4、About
+## 3、About
 这里把开发中常用的一些工具类做一个整理，主要用到的时候不用再费力的Baidu或者Google了，大家有需要的可以随时借鉴走，同时也希望这个越来越强大，有什么错误的地方还希望各位不吝指出，让我得以完善，当然，在此声明，这些并不是我一个人，也用了许多前辈们的东西，这里一并感谢，目前持续更新中，希望大家也可以提出更好的意见，如对你有用就给一个Start吧！
 
